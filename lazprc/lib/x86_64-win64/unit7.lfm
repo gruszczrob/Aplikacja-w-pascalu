@@ -1,0 +1,36 @@
+object Form7: TForm7
+  Left = 1501
+  Height = 90
+  Top = 275
+  Width = 320
+  Caption = 'Form7'
+  ClientHeight = 90
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 8
+    Width = 216
+    Caption = 'Czy na pewno chcesz zamknąć program?'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Nie'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Tak'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end

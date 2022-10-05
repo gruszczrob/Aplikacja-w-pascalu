@@ -1,0 +1,143 @@
+object Form5: TForm5
+  Left = 1529
+  Height = 240
+  Top = 513
+  Width = 320
+  Caption = 'Funckja kwadratowa'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 15
+    Top = 0
+    Width = 142
+    Caption = 'Kalkulator funkcji liniiowej:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 24
+    Width = 139
+    Caption = 'Wzór: y = (a*x^2) + bx + c'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 56
+    Width = 42
+    Caption = 'Podaj a:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 92
+    Width = 43
+    Caption = 'Podaj b:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 15
+    Top = 128
+    Width = 42
+    Caption = 'Podaj c:'
+    ParentColor = False
+  end
+  object InputA: TEdit
+    Left = 96
+    Height = 23
+    Top = 48
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 0
+    Text = 'InputA'
+  end
+  object InputB: TEdit
+    Left = 96
+    Height = 23
+    Top = 84
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 1
+    Text = 'InputB'
+  end
+  object InputC: TEdit
+    Left = 96
+    Height = 23
+    Top = 120
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 2
+    Text = 'InputC'
+  end
+  object Button1: TButton
+    Left = 96
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Submit'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    Left = 38
+    Height = 15
+    Top = 208
+    Width = 36
+    Caption = 'Wynik:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 96
+    Height = 1
+    Top = 184
+    Width = 1
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 232
+    Height = 25
+    Top = 108
+    Width = 75
+    Caption = 'Zamknij'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 232
+    Height = 25
+    Top = 62
+    Width = 75
+    Caption = 'Powrót'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Label8: TLabel
+    Left = 32
+    Height = 15
+    Top = 160
+    Width = 42
+    Caption = 'Podaj x:'
+    ParentColor = False
+  end
+  object InputX: TEdit
+    Left = 96
+    Height = 23
+    Top = 152
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 6
+    Text = 'InputX'
+  end
+  object odp: TLabel
+    Left = 96
+    Height = 1
+    Top = 208
+    Width = 1
+    ParentColor = False
+  end
+end

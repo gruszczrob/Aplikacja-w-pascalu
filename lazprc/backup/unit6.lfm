@@ -1,0 +1,30 @@
+object Form6: TForm6
+  Left = 1562
+  Height = 87
+  Top = 410
+  Width = 254
+  Caption = 'Blad'
+  ClientHeight = 87
+  ClientWidth = 254
+  Color = clRed
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 16
+    Width = 162
+    Caption = 'Blad nie mozna dzielic przez 0!!'
+    Color = clWhite
+    ParentColor = False
+    Transparent = False
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 25
+    Top = 48
+    Width = 162
+    Caption = 'Zamknij'
+    OnClick = Button2Click
+    TabOrder = 0
+  end
+end

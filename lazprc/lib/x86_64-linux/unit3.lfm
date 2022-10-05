@@ -1,0 +1,43 @@
+object Form3: TForm3
+  Left = 1053
+  Height = 245
+  Top = 218
+  Width = 320
+  Caption = 'Form3'
+  ClientHeight = 245
+  ClientWidth = 320
+  LCLVersion = '2.2.0.4'
+  object Button1: TButton
+    Left = 48
+    Height = 25
+    Top = 88
+    Width = 216
+    Caption = 'Kalkulator'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 25
+    Top = 56
+    Width = 216
+    Caption = 'Counter'
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 48
+    Height = 32
+    Top = 120
+    Width = 216
+    Caption = 'Kalkulator funkcji liniowej'
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 48
+    Height = 32
+    Top = 160
+    Width = 216
+    Caption = 'Kalkulator funkcji kwadratowej'
+    TabOrder = 3
+  end
+end

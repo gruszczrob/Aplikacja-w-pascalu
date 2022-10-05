@@ -1,0 +1,119 @@
+object Form4: TForm4
+  Left = 1579
+  Height = 240
+  Top = 520
+  Width = 320
+  Caption = 'Funckja liniowa'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 15
+    Top = 0
+    Width = 142
+    Caption = 'Kalkulator funkcji liniiowej:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 40
+    Width = 86
+    Caption = 'Wzór: y = ax + b'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 72
+    Width = 42
+    Caption = 'Podaj a:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 108
+    Width = 43
+    Caption = 'Podaj b:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 15
+    Top = 144
+    Width = 42
+    Caption = 'Podaj x:'
+    ParentColor = False
+  end
+  object InputA: TEdit
+    Left = 96
+    Height = 23
+    Top = 64
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 0
+    Text = 'InputA'
+  end
+  object InputB: TEdit
+    Left = 96
+    Height = 23
+    Top = 100
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 1
+    Text = 'InputB'
+  end
+  object InputX: TEdit
+    Left = 96
+    Height = 23
+    Top = 136
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 2
+    Text = 'InputX'
+  end
+  object Button1: TButton
+    Left = 96
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Submit'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    Left = 40
+    Height = 15
+    Top = 200
+    Width = 36
+    Caption = 'Wynik:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 96
+    Height = 1
+    Top = 200
+    Width = 1
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 232
+    Height = 25
+    Top = 108
+    Width = 75
+    Caption = 'Zamknij'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 232
+    Height = 25
+    Top = 62
+    Width = 75
+    Caption = 'Powrót'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+end

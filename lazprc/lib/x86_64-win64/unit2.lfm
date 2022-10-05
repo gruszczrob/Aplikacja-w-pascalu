@@ -1,0 +1,198 @@
+object Form2: TForm2
+  Left = 1575
+  Height = 240
+  Top = 333
+  Width = 320
+  Caption = 'Kalkulator'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '0'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '.'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 168
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '='
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 10
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '1'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 88
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '2'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 168
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '3'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 248
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '+'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 248
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '-'
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 10
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = '4'
+    OnClick = Button9Click
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 88
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = '5'
+    OnClick = Button10Click
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 168
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = '6'
+    OnClick = Button11Click
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 248
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = '*'
+    OnClick = Button12Click
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 10
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = '7'
+    OnClick = Button13Click
+    TabOrder = 12
+  end
+  object Button14: TButton
+    Left = 88
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = '8'
+    OnClick = Button14Click
+    TabOrder = 13
+  end
+  object Button15: TButton
+    Left = 168
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = '9'
+    OnClick = Button15Click
+    TabOrder = 14
+  end
+  object Button16: TButton
+    Left = 248
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = '/'
+    OnClick = Button16Click
+    TabOrder = 15
+  end
+  object Button17: TButton
+    Left = 224
+    Height = 25
+    Top = 64
+    Width = 99
+    Caption = 'Backspace'
+    OnClick = Button17Click
+    TabOrder = 16
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 6
+    Caption = '0'
+    ParentColor = False
+  end
+  object Button18: TButton
+    Left = 224
+    Height = 25
+    Top = 0
+    Width = 99
+    Caption = 'Powrót'
+    OnClick = Button18Click
+    TabOrder = 17
+  end
+  object Button19: TButton
+    Left = 160
+    Height = 25
+    Top = 0
+    Width = 75
+    Caption = 'Zamknij'
+    OnClick = Button19Click
+    TabOrder = 18
+  end
+  object Button20: TButton
+    Left = 224
+    Height = 25
+    Top = 40
+    Width = 99
+    Caption = 'Clear'
+    OnClick = Button20Click
+    TabOrder = 19
+  end
+end
